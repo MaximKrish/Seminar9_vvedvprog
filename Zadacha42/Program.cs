@@ -1,4 +1,6 @@
-﻿int count = 0, x, n = Convert.ToInt32(Console.ReadLine());
+﻿// Напишите программу, которая будет преобразовывать десятичное число в двоичное
+
+int count = 0, x, n = Convert.ToInt32(Console.ReadLine());
 List<int> array = new List<int>(); //Динамический массив
 while (n > 0)
 {
